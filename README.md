@@ -1,6 +1,6 @@
 # Book Store API GoLang
 
-Challange 8 GoLang
+Challange 9 GoLang
 
 ## How to use
 
@@ -16,18 +16,27 @@ Challange 8 GoLang
 
 ## Available Endpoints:
 
-### Get All Books: ( GET Request )
-* `localhost:8080/books`
+## Endpoints Users :
 
-### Get single Book ( GET request )
-* `localhost:8080/books/:id`
+### Register: ( POST Request )
+* `localhost:8080/users/register`
 
-### Add New Book: ( POST Request )
-* `localhost:8080/books`
+### Login: ( POST Request )
+* `localhost:8080/users/login`
 
-### Update Book: ( PUT Request )
-* `localhost:8080/books/:id`
+## Endpoints Social Media
 
-### Delete Book: ( Delete Request )
-* `localhost:8080/books/:id`
-"# challange-9" 
+### Get All Social Media: ( GET Request )
+* `localhost:8080/social_media`
+
+### Get One Social Media ( GET request )
+* `localhost:8080/social_media/:id`
+
+### Create New Social Media: ( POST Request )
+* `localhost:8080/social_media`
+
+### Update Social Media: ( PUT Request )
+* `localhost:8080/social_media/:id`
+
+### Delete Social Media: ( Delete Request )
+* `localhost:8080/social_media/:id`
